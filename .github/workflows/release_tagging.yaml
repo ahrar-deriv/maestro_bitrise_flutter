@@ -20,7 +20,7 @@ jobs:
     - id: read-version
       uses: NiklasLehnfeld/flutter-version-number-action@main
       with:
-          file-path: pubspec.yaml
+          file-path: example/pubspec.yaml
     - uses: nick-invision/assert-action@v1
       with:
           expected: 0.0.1+1
